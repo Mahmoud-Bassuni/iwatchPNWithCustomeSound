@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,14 +13,20 @@
 		191FA00123565380007A9425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191F9FFF23565380007A9425 /* Main.storyboard */; };
 		191FA00323565383007A9425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191FA00223565383007A9425 /* Assets.xcassets */; };
 		191FA00623565384007A9425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191FA00423565384007A9425 /* LaunchScreen.storyboard */; };
-		191FA00B23565384007A9425 /* IwatchWithProjectPN WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 191FA00A23565384007A9425 /* IwatchWithProjectPN WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		191FA00B23565384007A9425 /* basssuni80.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 191FA00A23565384007A9425 /* basssuni80.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		191FA01123565384007A9425 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191FA00F23565384007A9425 /* Interface.storyboard */; };
 		191FA01323565385007A9425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191FA01223565385007A9425 /* Assets.xcassets */; };
-		191FA01A23565385007A9425 /* IwatchWithProjectPN WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 191FA01923565385007A9425 /* IwatchWithProjectPN WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		191FA01A23565385007A9425 /* bassuni80.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 191FA01923565385007A9425 /* bassuni80.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		191FA01F23565385007A9425 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191FA01E23565385007A9425 /* InterfaceController.swift */; };
 		191FA02123565385007A9425 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191FA02023565385007A9425 /* ExtensionDelegate.swift */; };
 		191FA02323565385007A9425 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191FA02223565385007A9425 /* NotificationController.swift */; };
 		191FA02523565386007A9425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191FA02423565386007A9425 /* Assets.xcassets */; };
+		191FA036235659E0007A9425 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 191FA035235659E0007A9425 /* GoogleService-Info.plist */; };
+		19915E0023567482006B11B8 /* whistle_twice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19915DFF23567481006B11B8 /* whistle_twice.mp3 */; };
+		19915EA32356A077006B11B8 /* whistle_twice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19915EA22356A077006B11B8 /* whistle_twice.mp3 */; };
+		2EAFC88963C92405AA46D951 /* Pods_IwatchWithProjectPN_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF509BB3D7226D729D8383E2 /* Pods_IwatchWithProjectPN_WatchKit_Extension.framework */; };
+		502DCEABE610E4E5BFFF9C73 /* Pods_IwatchWithProjectPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5319D6576F154735DA3FDA67 /* Pods_IwatchWithProjectPN.framework */; };
+		7BB82555CD45CF16A9AF13FC /* Pods_IwatchWithProjectPN_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7DADB9F7751DD905C1D648 /* Pods_IwatchWithProjectPN_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +53,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				191FA01A23565385007A9425 /* IwatchWithProjectPN WatchKit Extension.appex in Embed App Extensions */,
+				191FA01A23565385007A9425 /* bassuni80.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,7 +64,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				191FA00B23565384007A9425 /* IwatchWithProjectPN WatchKit App.app in Embed Watch Content */,
+				191FA00B23565384007A9425 /* basssuni80.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +72,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		191F9FF623565380007A9425 /* IwatchWithProjectPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IwatchWithProjectPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		191642EB235664A9004F73F5 /* IwatchWithProjectPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IwatchWithProjectPN.entitlements; sourceTree = "<group>"; };
+		191F9FF623565380007A9425 /* Iwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		191F9FF923565380007A9425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		191F9FFB23565380007A9425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		191F9FFD23565380007A9425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,17 +81,29 @@
 		191FA00223565383007A9425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191FA00523565384007A9425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		191FA00723565384007A9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		191FA00A23565384007A9425 /* IwatchWithProjectPN WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IwatchWithProjectPN WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		191FA00A23565384007A9425 /* basssuni80.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basssuni80.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		191FA01023565384007A9425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		191FA01223565385007A9425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191FA01423565385007A9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		191FA01923565385007A9425 /* IwatchWithProjectPN WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IwatchWithProjectPN WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		191FA01923565385007A9425 /* bassuni80.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = bassuni80.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		191FA01E23565385007A9425 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		191FA02023565385007A9425 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		191FA02223565385007A9425 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		191FA02423565386007A9425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191FA02623565386007A9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		191FA02723565386007A9425 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		191FA035235659E0007A9425 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		19915DFF23567481006B11B8 /* whistle_twice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle_twice.mp3; sourceTree = "<group>"; };
+		19915EA22356A077006B11B8 /* whistle_twice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle_twice.mp3; sourceTree = "<group>"; };
+		21B66ABF393F1E3A9CD62E89 /* Pods-IwatchWithProjectPN WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IwatchWithProjectPN WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-IwatchWithProjectPN WatchKit Extension/Pods-IwatchWithProjectPN WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		2C7DADB9F7751DD905C1D648 /* Pods_IwatchWithProjectPN_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IwatchWithProjectPN_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5319D6576F154735DA3FDA67 /* Pods_IwatchWithProjectPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IwatchWithProjectPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		623DBD1C19E0A1763FE9A3AC /* Pods-IwatchWithProjectPN WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IwatchWithProjectPN WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-IwatchWithProjectPN WatchKit Extension/Pods-IwatchWithProjectPN WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		C7496DC809A8A58084A5763F /* Pods-IwatchWithProjectPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IwatchWithProjectPN.debug.xcconfig"; path = "Target Support Files/Pods-IwatchWithProjectPN/Pods-IwatchWithProjectPN.debug.xcconfig"; sourceTree = "<group>"; };
+		F56EFC7DEC48001DA64434AA /* Pods-IwatchWithProjectPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IwatchWithProjectPN.release.xcconfig"; path = "Target Support Files/Pods-IwatchWithProjectPN/Pods-IwatchWithProjectPN.release.xcconfig"; sourceTree = "<group>"; };
+		F77E86E39C0290818C007DA5 /* Pods-IwatchWithProjectPN WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IwatchWithProjectPN WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-IwatchWithProjectPN WatchKit App/Pods-IwatchWithProjectPN WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		FB95D96D475F591E44928502 /* Pods-IwatchWithProjectPN WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IwatchWithProjectPN WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-IwatchWithProjectPN WatchKit App/Pods-IwatchWithProjectPN WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		FF509BB3D7226D729D8383E2 /* Pods_IwatchWithProjectPN_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IwatchWithProjectPN_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502DCEABE610E4E5BFFF9C73 /* Pods_IwatchWithProjectPN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +119,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EAFC88963C92405AA46D951 /* Pods_IwatchWithProjectPN_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D5842374208EF1C9092D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB82555CD45CF16A9AF13FC /* Pods_IwatchWithProjectPN_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,15 +141,17 @@
 				191FA00E23565384007A9425 /* IwatchWithProjectPN WatchKit App */,
 				191FA01D23565385007A9425 /* IwatchWithProjectPN WatchKit Extension */,
 				191F9FF723565380007A9425 /* Products */,
+				1FD536B4097F89791BC79E68 /* Pods */,
+				5CA1B9C8B689E5061AF08C3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		191F9FF723565380007A9425 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				191F9FF623565380007A9425 /* IwatchWithProjectPN.app */,
-				191FA00A23565384007A9425 /* IwatchWithProjectPN WatchKit App.app */,
-				191FA01923565385007A9425 /* IwatchWithProjectPN WatchKit Extension.appex */,
+				191F9FF623565380007A9425 /* Iwatch.app */,
+				191FA00A23565384007A9425 /* basssuni80.app */,
+				191FA01923565385007A9425 /* bassuni80.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +159,9 @@
 		191F9FF823565380007A9425 /* IwatchWithProjectPN */ = {
 			isa = PBXGroup;
 			children = (
+				19915DFF23567481006B11B8 /* whistle_twice.mp3 */,
+				191642EB235664A9004F73F5 /* IwatchWithProjectPN.entitlements */,
+				191FA035235659E0007A9425 /* GoogleService-Info.plist */,
 				191F9FF923565380007A9425 /* AppDelegate.swift */,
 				191F9FFB23565380007A9425 /* SceneDelegate.swift */,
 				191F9FFD23565380007A9425 /* ViewController.swift */,
@@ -152,6 +186,7 @@
 		191FA01D23565385007A9425 /* IwatchWithProjectPN WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				19915EA22356A077006B11B8 /* whistle_twice.mp3 */,
 				191FA01E23565385007A9425 /* InterfaceController.swift */,
 				191FA02023565385007A9425 /* ExtensionDelegate.swift */,
 				191FA02223565385007A9425 /* NotificationController.swift */,
@@ -162,6 +197,29 @@
 			path = "IwatchWithProjectPN WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		1FD536B4097F89791BC79E68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7496DC809A8A58084A5763F /* Pods-IwatchWithProjectPN.debug.xcconfig */,
+				F56EFC7DEC48001DA64434AA /* Pods-IwatchWithProjectPN.release.xcconfig */,
+				FB95D96D475F591E44928502 /* Pods-IwatchWithProjectPN WatchKit App.debug.xcconfig */,
+				F77E86E39C0290818C007DA5 /* Pods-IwatchWithProjectPN WatchKit App.release.xcconfig */,
+				623DBD1C19E0A1763FE9A3AC /* Pods-IwatchWithProjectPN WatchKit Extension.debug.xcconfig */,
+				21B66ABF393F1E3A9CD62E89 /* Pods-IwatchWithProjectPN WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CA1B9C8B689E5061AF08C3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5319D6576F154735DA3FDA67 /* Pods_IwatchWithProjectPN.framework */,
+				2C7DADB9F7751DD905C1D648 /* Pods_IwatchWithProjectPN_WatchKit_App.framework */,
+				FF509BB3D7226D729D8383E2 /* Pods_IwatchWithProjectPN_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,10 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 191FA03223565386007A9425 /* Build configuration list for PBXNativeTarget "IwatchWithProjectPN" */;
 			buildPhases = (
+				C5625691E764FA95DCFBE43A /* [CP] Check Pods Manifest.lock */,
 				191F9FF223565380007A9425 /* Sources */,
 				191F9FF323565380007A9425 /* Frameworks */,
 				191F9FF423565380007A9425 /* Resources */,
 				191FA03123565386007A9425 /* Embed Watch Content */,
+				BD52DE52965FE9ED96D54940 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,15 +241,17 @@
 			);
 			name = IwatchWithProjectPN;
 			productName = IwatchWithProjectPN;
-			productReference = 191F9FF623565380007A9425 /* IwatchWithProjectPN.app */;
+			productReference = 191F9FF623565380007A9425 /* Iwatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		191FA00923565384007A9425 /* IwatchWithProjectPN WatchKit App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 191FA02E23565386007A9425 /* Build configuration list for PBXNativeTarget "IwatchWithProjectPN WatchKit App" */;
 			buildPhases = (
+				331DE17B013706E505DBA7C4 /* [CP] Check Pods Manifest.lock */,
 				191FA00823565384007A9425 /* Resources */,
 				191FA02D23565386007A9425 /* Embed App Extensions */,
+				22D5842374208EF1C9092D7C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,13 +260,14 @@
 			);
 			name = "IwatchWithProjectPN WatchKit App";
 			productName = "IwatchWithProjectPN WatchKit App";
-			productReference = 191FA00A23565384007A9425 /* IwatchWithProjectPN WatchKit App.app */;
+			productReference = 191FA00A23565384007A9425 /* basssuni80.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		191FA01823565385007A9425 /* IwatchWithProjectPN WatchKit Extension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 191FA02A23565386007A9425 /* Build configuration list for PBXNativeTarget "IwatchWithProjectPN WatchKit Extension" */;
 			buildPhases = (
+				7255B7608DADA0B364ED4D31 /* [CP] Check Pods Manifest.lock */,
 				191FA01523565385007A9425 /* Sources */,
 				191FA01623565385007A9425 /* Frameworks */,
 				191FA01723565385007A9425 /* Resources */,
@@ -215,7 +278,7 @@
 			);
 			name = "IwatchWithProjectPN WatchKit Extension";
 			productName = "IwatchWithProjectPN WatchKit Extension";
-			productReference = 191FA01923565385007A9425 /* IwatchWithProjectPN WatchKit Extension.appex */;
+			productReference = 191FA01923565385007A9425 /* bassuni80.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -265,6 +328,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				191FA00623565384007A9425 /* LaunchScreen.storyboard in Resources */,
+				191FA036235659E0007A9425 /* GoogleService-Info.plist in Resources */,
+				19915E0023567482006B11B8 /* whistle_twice.mp3 in Resources */,
 				191FA00323565383007A9425 /* Assets.xcassets in Resources */,
 				191FA00123565380007A9425 /* Main.storyboard in Resources */,
 			);
@@ -283,11 +348,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19915EA32356A077006B11B8 /* whistle_twice.mp3 in Resources */,
 				191FA02523565386007A9425 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		331DE17B013706E505DBA7C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IwatchWithProjectPN WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7255B7608DADA0B364ED4D31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IwatchWithProjectPN WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD52DE52965FE9ED96D54940 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IwatchWithProjectPN/Pods-IwatchWithProjectPN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IwatchWithProjectPN/Pods-IwatchWithProjectPN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IwatchWithProjectPN/Pods-IwatchWithProjectPN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5625691E764FA95DCFBE43A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IwatchWithProjectPN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		191F9FF223565380007A9425 /* Sources */ = {
@@ -469,8 +621,10 @@
 		};
 		191FA02B23565386007A9425 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 623DBD1C19E0A1763FE9A3AC /* Pods-IwatchWithProjectPN WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "IwatchWithProjectPN WatchKit Extension/bassuni4.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = "IwatchWithProjectPN WatchKit Extension/Info.plist";
@@ -480,7 +634,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = bassuni80;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -491,8 +645,10 @@
 		};
 		191FA02C23565386007A9425 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B66ABF393F1E3A9CD62E89 /* Pods-IwatchWithProjectPN WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "IwatchWithProjectPN WatchKit Extension/bassuni4.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = "IwatchWithProjectPN WatchKit Extension/Info.plist";
@@ -502,7 +658,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = bassuni80;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -513,6 +669,7 @@
 		};
 		191FA02F23565386007A9425 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB95D96D475F591E44928502 /* Pods-IwatchWithProjectPN WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -521,7 +678,7 @@
 				IBSC_MODULE = IwatchWithProjectPN_WatchKit_Extension;
 				INFOPLIST_FILE = "IwatchWithProjectPN WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = basssuni80;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -532,6 +689,7 @@
 		};
 		191FA03023565386007A9425 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77E86E39C0290818C007DA5 /* Pods-IwatchWithProjectPN WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -540,7 +698,7 @@
 				IBSC_MODULE = IwatchWithProjectPN_WatchKit_Extension;
 				INFOPLIST_FILE = "IwatchWithProjectPN WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = basssuni80;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -551,8 +709,10 @@
 		};
 		191FA03323565386007A9425 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7496DC809A8A58084A5763F /* Pods-IwatchWithProjectPN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IwatchWithProjectPN/IwatchWithProjectPN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = IwatchWithProjectPN/Info.plist;
@@ -561,7 +721,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Iwatch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -569,8 +729,10 @@
 		};
 		191FA03423565386007A9425 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56EFC7DEC48001DA64434AA /* Pods-IwatchWithProjectPN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IwatchWithProjectPN/IwatchWithProjectPN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = IwatchWithProjectPN/Info.plist;
@@ -579,7 +741,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Iwatch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

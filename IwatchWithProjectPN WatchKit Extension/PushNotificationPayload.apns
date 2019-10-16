@@ -3,8 +3,10 @@
         "alert": {
             "body": "Test message",
             "title": "Optional title",
-            "subtitle": "Optional subtitle"
+            "subtitle": "Optional subtitle",
+             "sound" : "whistle_twice.mp3"
         },
+         "sound" : "whistle_twice.mp3"
         "category": "myCategory",
         "thread-id": "5280"
     },

@@ -7,8 +7,33 @@
 //
 
 import WatchKit
-
+import UserNotifications
+import AVFoundation
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
+
+
+   var player: AVAudioPlayer?
+    func playSound() {
+        guard let url = Bundle.main.url(forResource: "whistle_twice", withExtension: "mp3") else { return }
+
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+
+            /* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+
+            /* iOS 10 and earlier require the following line:
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
+
+            guard let player = player else { return }
+
+            player.play()
+
+        } catch let error {
+            print(error.localizedDescription)
+        }
+    }
 
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
@@ -22,6 +47,21 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, etc.
     }
+
+
+//
+//       // fire notification
+//       func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void)
+//       {
+//playSound()
+//
+//       }
+//     func didReceiveRemoteNotification(_ userInfo: [AnyHashable : Any],
+//    fetchCompletionHandler completionHandler: @escaping (WKBackgroundFetchResult) -> Void)
+//    {
+//        playSound()
+//        completionHandler(.newData)
+//    }
 
     func handle(_ backgroundTasks: Set<WKRefreshBackgroundTask>) {
         // Sent when the system needs to launch the application in the background to process tasks. Tasks arrive in a set, so loop through and process each one.

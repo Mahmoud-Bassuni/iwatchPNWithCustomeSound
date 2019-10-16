@@ -1,0 +1,6 @@
+framework module Pods_IwatchWithProjectPN {
+  umbrella header "Pods-IwatchWithProjectPN-umbrella.h"
+
+  export *
+  module * { export * }
+}
