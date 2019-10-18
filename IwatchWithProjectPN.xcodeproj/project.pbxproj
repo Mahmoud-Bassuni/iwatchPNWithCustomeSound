@@ -13,15 +13,19 @@
 		191FA00123565380007A9425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191F9FFF23565380007A9425 /* Main.storyboard */; };
 		191FA00323565383007A9425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191FA00223565383007A9425 /* Assets.xcassets */; };
 		191FA00623565384007A9425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191FA00423565384007A9425 /* LaunchScreen.storyboard */; };
-		191FA00B23565384007A9425 /* basssuni80.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 191FA00A23565384007A9425 /* basssuni80.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		191FA00B23565384007A9425 /* Iwatch app.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 191FA00A23565384007A9425 /* Iwatch app.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		191FA01123565384007A9425 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191FA00F23565384007A9425 /* Interface.storyboard */; };
 		191FA01323565385007A9425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191FA01223565385007A9425 /* Assets.xcassets */; };
-		191FA01A23565385007A9425 /* bassuni80.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 191FA01923565385007A9425 /* bassuni80.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		191FA01A23565385007A9425 /* Iwatch app .appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 191FA01923565385007A9425 /* Iwatch app .appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		191FA01F23565385007A9425 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191FA01E23565385007A9425 /* InterfaceController.swift */; };
 		191FA02123565385007A9425 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191FA02023565385007A9425 /* ExtensionDelegate.swift */; };
 		191FA02323565385007A9425 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191FA02223565385007A9425 /* NotificationController.swift */; };
 		191FA02523565386007A9425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191FA02423565386007A9425 /* Assets.xcassets */; };
 		191FA036235659E0007A9425 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 191FA035235659E0007A9425 /* GoogleService-Info.plist */; };
+		196273F323599008009000B9 /* whistle_twice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 196273F223599007009000B9 /* whistle_twice.mp3 */; };
+		1967A27D2359E59B00D1004D /* piano-composition-40-46458.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1967A27C2359E59B00D1004D /* piano-composition-40-46458.mp3 */; };
+		1967A27F2359E5A200D1004D /* piano-composition-40-46458.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1967A27E2359E5A200D1004D /* piano-composition-40-46458.mp3 */; };
+		1967A2812359E5C500D1004D /* piano-composition-40-46458.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1967A2802359E5C500D1004D /* piano-composition-40-46458.mp3 */; };
 		19915E0023567482006B11B8 /* whistle_twice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19915DFF23567481006B11B8 /* whistle_twice.mp3 */; };
 		19915EA32356A077006B11B8 /* whistle_twice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19915EA22356A077006B11B8 /* whistle_twice.mp3 */; };
 		2EAFC88963C92405AA46D951 /* Pods_IwatchWithProjectPN_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF509BB3D7226D729D8383E2 /* Pods_IwatchWithProjectPN_WatchKit_Extension.framework */; };
@@ -53,7 +57,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				191FA01A23565385007A9425 /* bassuni80.appex in Embed App Extensions */,
+				191FA01A23565385007A9425 /* Iwatch app .appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +68,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				191FA00B23565384007A9425 /* basssuni80.app in Embed Watch Content */,
+				191FA00B23565384007A9425 /* Iwatch app.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,11 +85,11 @@
 		191FA00223565383007A9425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191FA00523565384007A9425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		191FA00723565384007A9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		191FA00A23565384007A9425 /* basssuni80.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basssuni80.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		191FA00A23565384007A9425 /* Iwatch app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iwatch app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		191FA01023565384007A9425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		191FA01223565385007A9425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191FA01423565385007A9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		191FA01923565385007A9425 /* bassuni80.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = bassuni80.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		191FA01923565385007A9425 /* Iwatch app .appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Iwatch app .appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		191FA01E23565385007A9425 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		191FA02023565385007A9425 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		191FA02223565385007A9425 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -93,6 +97,10 @@
 		191FA02623565386007A9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		191FA02723565386007A9425 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		191FA035235659E0007A9425 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		196273F223599007009000B9 /* whistle_twice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = whistle_twice.mp3; path = "IwatchWithProjectPN WatchKit Extension/whistle_twice.mp3"; sourceTree = SOURCE_ROOT; };
+		1967A27C2359E59B00D1004D /* piano-composition-40-46458.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "piano-composition-40-46458.mp3"; sourceTree = "<group>"; };
+		1967A27E2359E5A200D1004D /* piano-composition-40-46458.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "piano-composition-40-46458.mp3"; sourceTree = "<group>"; };
+		1967A2802359E5C500D1004D /* piano-composition-40-46458.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "piano-composition-40-46458.mp3"; sourceTree = "<group>"; };
 		19915DFF23567481006B11B8 /* whistle_twice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle_twice.mp3; sourceTree = "<group>"; };
 		19915EA22356A077006B11B8 /* whistle_twice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle_twice.mp3; sourceTree = "<group>"; };
 		21B66ABF393F1E3A9CD62E89 /* Pods-IwatchWithProjectPN WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IwatchWithProjectPN WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-IwatchWithProjectPN WatchKit Extension/Pods-IwatchWithProjectPN WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,8 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				191F9FF623565380007A9425 /* Iwatch.app */,
-				191FA00A23565384007A9425 /* basssuni80.app */,
-				191FA01923565385007A9425 /* bassuni80.appex */,
+				191FA00A23565384007A9425 /* Iwatch app.app */,
+				191FA01923565385007A9425 /* Iwatch app .appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +167,7 @@
 		191F9FF823565380007A9425 /* IwatchWithProjectPN */ = {
 			isa = PBXGroup;
 			children = (
+				1967A2802359E5C500D1004D /* piano-composition-40-46458.mp3 */,
 				19915DFF23567481006B11B8 /* whistle_twice.mp3 */,
 				191642EB235664A9004F73F5 /* IwatchWithProjectPN.entitlements */,
 				191FA035235659E0007A9425 /* GoogleService-Info.plist */,
@@ -176,6 +185,8 @@
 		191FA00E23565384007A9425 /* IwatchWithProjectPN WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				1967A27C2359E59B00D1004D /* piano-composition-40-46458.mp3 */,
+				196273F223599007009000B9 /* whistle_twice.mp3 */,
 				191FA00F23565384007A9425 /* Interface.storyboard */,
 				191FA01223565385007A9425 /* Assets.xcassets */,
 				191FA01423565385007A9425 /* Info.plist */,
@@ -186,6 +197,7 @@
 		191FA01D23565385007A9425 /* IwatchWithProjectPN WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1967A27E2359E5A200D1004D /* piano-composition-40-46458.mp3 */,
 				19915EA22356A077006B11B8 /* whistle_twice.mp3 */,
 				191FA01E23565385007A9425 /* InterfaceController.swift */,
 				191FA02023565385007A9425 /* ExtensionDelegate.swift */,
@@ -260,7 +272,7 @@
 			);
 			name = "IwatchWithProjectPN WatchKit App";
 			productName = "IwatchWithProjectPN WatchKit App";
-			productReference = 191FA00A23565384007A9425 /* basssuni80.app */;
+			productReference = 191FA00A23565384007A9425 /* Iwatch app.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		191FA01823565385007A9425 /* IwatchWithProjectPN WatchKit Extension */ = {
@@ -278,7 +290,7 @@
 			);
 			name = "IwatchWithProjectPN WatchKit Extension";
 			productName = "IwatchWithProjectPN WatchKit Extension";
-			productReference = 191FA01923565385007A9425 /* bassuni80.appex */;
+			productReference = 191FA01923565385007A9425 /* Iwatch app .appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -287,6 +299,9 @@
 		191F9FEE23565380007A9425 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Bassuni;
@@ -332,6 +347,7 @@
 				19915E0023567482006B11B8 /* whistle_twice.mp3 in Resources */,
 				191FA00323565383007A9425 /* Assets.xcassets in Resources */,
 				191FA00123565380007A9425 /* Main.storyboard in Resources */,
+				1967A2812359E5C500D1004D /* piano-composition-40-46458.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196273F323599008009000B9 /* whistle_twice.mp3 in Resources */,
+				1967A27D2359E59B00D1004D /* piano-composition-40-46458.mp3 in Resources */,
 				191FA01323565385007A9425 /* Assets.xcassets in Resources */,
 				191FA01123565384007A9425 /* Interface.storyboard in Resources */,
 			);
@@ -350,6 +368,7 @@
 			files = (
 				19915EA32356A077006B11B8 /* whistle_twice.mp3 in Resources */,
 				191FA02523565386007A9425 /* Assets.xcassets in Resources */,
+				1967A27F2359E5A200D1004D /* piano-composition-40-46458.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +645,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "IwatchWithProjectPN WatchKit Extension/bassuni4.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "IwatchWithProjectPN/whistle_twice.mp3 IwatchWithProjectPN\\ WatchKit\\ Extension/piano-composition-40-46458.mp3";
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = "IwatchWithProjectPN WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -634,7 +654,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN.watchkitapp.watchkitextension;
-				PRODUCT_NAME = bassuni80;
+				PRODUCT_NAME = "Iwatch app ";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -650,6 +670,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "IwatchWithProjectPN WatchKit Extension/bassuni4.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "IwatchWithProjectPN/whistle_twice.mp3 IwatchWithProjectPN\\ WatchKit\\ Extension/piano-composition-40-46458.mp3";
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = "IwatchWithProjectPN WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -658,7 +679,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN.watchkitapp.watchkitextension;
-				PRODUCT_NAME = bassuni80;
+				PRODUCT_NAME = "Iwatch app ";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -678,7 +699,7 @@
 				IBSC_MODULE = IwatchWithProjectPN_WatchKit_Extension;
 				INFOPLIST_FILE = "IwatchWithProjectPN WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN.watchkitapp;
-				PRODUCT_NAME = basssuni80;
+				PRODUCT_NAME = "Iwatch app";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -698,7 +719,7 @@
 				IBSC_MODULE = IwatchWithProjectPN_WatchKit_Extension;
 				INFOPLIST_FILE = "IwatchWithProjectPN WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = Bassuni.IwatchWithProjectPN.watchkitapp;
-				PRODUCT_NAME = basssuni80;
+				PRODUCT_NAME = "Iwatch app";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -714,6 +735,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IwatchWithProjectPN/IwatchWithProjectPN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "IwatchWithProjectPN/whistle_twice.mp3 IwatchWithProjectPN/piano-composition-40-46458.mp3";
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = IwatchWithProjectPN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -734,6 +756,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IwatchWithProjectPN/IwatchWithProjectPN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "IwatchWithProjectPN/whistle_twice.mp3 IwatchWithProjectPN/piano-composition-40-46458.mp3";
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = IwatchWithProjectPN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

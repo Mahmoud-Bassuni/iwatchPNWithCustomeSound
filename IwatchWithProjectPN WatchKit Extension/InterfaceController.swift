@@ -14,11 +14,10 @@ class InterfaceController: WKInterfaceController {
     var player: AVAudioPlayer?
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        playSound();
         // Configure interface objects here.
     }
     func playSound() {
-         guard let url = Bundle.main.url(forResource: "whistle_twice", withExtension: "mp3") else { return }
+         guard let url = Bundle.main.url(forResource: "piano-composition-40-46458", withExtension: "mp3") else { return }
 
          do {
              try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
@@ -39,14 +38,17 @@ class InterfaceController: WKInterfaceController {
          }
      }
     override func willActivate() {
+        
         playSound() 
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
     }
-    
+     
     override func didDeactivate() {
+
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+        player?.stop()
     }
 
 }

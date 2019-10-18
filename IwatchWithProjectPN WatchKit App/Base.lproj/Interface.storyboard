@@ -9,21 +9,21 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="basssuni55" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Iwatch_app_"/>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="lbp-1M-xUu">
             <objects>
-                <controller id="Jjr-b2-hcG" customClass="InterfaceController" customModule="bassuni80"/>
+                <controller id="Jjr-b2-hcG" customClass="InterfaceController" customModule="Iwatch_app_"/>
             </objects>
             <point key="canvasLocation" x="489" y="345"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>
-                <notificationController id="YCC-NB-fut">
+                <notificationController id="YCC-NB-fut" customClass="NotificationController" customModule="Iwatch_app_">
                     <items>
                         <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
                     </items>
@@ -39,7 +39,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="bassuni80"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Iwatch_app_"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>

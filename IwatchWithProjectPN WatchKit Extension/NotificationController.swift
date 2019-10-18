@@ -24,7 +24,7 @@ class NotificationController: WKUserNotificationInterfaceController {
 
 
   func playSound() {
-       guard let url = Bundle.main.url(forResource: "whistle_twice", withExtension: "mp3") else { return }
+       guard let url = Bundle.main.url(forResource: "piano-composition-40-46458", withExtension: "mp3") else { return }
 
        do {
            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
@@ -63,7 +63,9 @@ class NotificationController: WKUserNotificationInterfaceController {
             // After populating your dynamic notification interface call the completion block.
             completionHandler(.custom)
         }
-
+    func userNotificationCenter(_: UNUserNotificationCenter, willPresent: UNNotification, withCompletionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        self.player?.stop()
+    }
 
     override func didReceive(_ notification: UNNotification) {
 
@@ -78,4 +80,6 @@ class NotificationController: WKUserNotificationInterfaceController {
 
 
       }
+
+    
 }

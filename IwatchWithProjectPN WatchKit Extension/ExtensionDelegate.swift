@@ -9,12 +9,12 @@
 import WatchKit
 import UserNotifications
 import AVFoundation
-class ExtensionDelegate: NSObject, WKExtensionDelegate {
+class ExtensionDelegate: NSObject, WKExtensionDelegate , UNUserNotificationCenterDelegate{
 
 
    var player: AVAudioPlayer?
     func playSound() {
-        guard let url = Bundle.main.url(forResource: "whistle_twice", withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: "piano-composition-40-46458", withExtension: "mp3") else { return }
 
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
@@ -36,6 +36,8 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
     }
 
     func applicationDidFinishLaunching() {
+        UNUserNotificationCenter.current().delegate = self
+       setUpNotificationPreferences()
         // Perform any final initialization of your application.
     }
 
@@ -50,18 +52,50 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
 
 //
-//       // fire notification
-//       func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void)
-//       {
-//playSound()
-//
-//       }
-//     func didReceiveRemoteNotification(_ userInfo: [AnyHashable : Any],
-//    fetchCompletionHandler completionHandler: @escaping (WKBackgroundFetchResult) -> Void)
-//    {
-//        playSound()
-//        completionHandler(.newData)
-//    }
+
+    func userNotificationCenter(_ center: UNUserNotificationCenter,
+    willPresent notification: UNNotification,
+    withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void)
+    {
+        completionHandler(.alert)
+        playSound()
+    }
+
+     func didReceive(_ notification: UNNotification, withCompletion completionHandler: @escaping (WKUserNotificationInterfaceType) -> Swift.Void) {
+        playSound()
+    }
+
+
+     func didReceiveRemoteNotification(_ userInfo: [AnyHashable : Any],
+    fetchCompletionHandler completionHandler: @escaping (WKBackgroundFetchResult) -> Void)
+    {
+        playSound()
+        completionHandler(.newData)
+    }
+
+    // MARK: UNUserNotificationCenterDelegate
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        NSLog("\(#function)")
+
+        player?.stop()
+        //completionHandler()
+
+    }
+
+
+    func setUpNotificationPreferences() {
+           let center = UNUserNotificationCenter.current()
+           center.delegate = self
+           center.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
+               if granted {
+                   let category = UNNotificationCategory(identifier: "GENERAL", actions: [], intentIdentifiers: [], options: [])
+                   center.setNotificationCategories(Set([category]))
+               } else {
+                   print("No permission" + error.debugDescription)
+               }
+           }
+       }
+
 
     func handle(_ backgroundTasks: Set<WKRefreshBackgroundTask>) {
         // Sent when the system needs to launch the application in the background to process tasks. Tasks arrive in a set, so loop through and process each one.
